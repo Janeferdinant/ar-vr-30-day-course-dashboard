@@ -134,6 +134,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your web browser.
 
+---
+
+## 🌐 Live Production Deployment
+
+- **Vercel Production URL:** [https://ar-vr-30-day-course-dashboard.vercel.app](https://ar-vr-30-day-course-dashboard.vercel.app)
+- **Alternate Alias:** [https://ar-vr-30-day-course-dashboard-janes-projects-1909f5b1.vercel.app](https://ar-vr-30-day-course-dashboard-janes-projects-1909f5b1.vercel.app)
+- **GitHub Repository:** [https://github.com/Janeferdinant/ar-vr-30-day-course-dashboard](https://github.com/Janeferdinant/ar-vr-30-day-course-dashboard)
+- **CI/CD Pipeline:** Fully connected to GitHub via Vercel Git Integration. Any push to `main` automatically triggers an optimized production deployment.
+
 ### Verification Commands
 ```bash
 # Run TypeScript type check and production build
@@ -141,26 +150,6 @@ npm run build
 
 # Run ESLint validation
 npm run lint
-```
-
----
-
-## 🚢 Deployment to Vercel
-
-### Option 1: Git-Connected Deployment (Recommended)
-1. Push the repository to GitHub:
-   ```bash
-   git remote add origin https://github.com/your-username/ar-vr-30-day-course-dashboard.git
-   git push -u origin main
-   ```
-2. Log into [Vercel](https://vercel.com) and click **"Add New Project"**.
-3. Import the `ar-vr-30-day-course-dashboard` repository.
-4. Leave build settings as default (`next build`), framework as `Next.js`.
-5. Click **"Deploy"**. Future pushes to `main` will automatically trigger continuous production deployments.
-
-### Option 2: Vercel CLI
-```bash
-npx vercel
 ```
 
 ---
